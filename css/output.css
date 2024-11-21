@@ -598,10 +598,6 @@ video {
   margin-top: 20px;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
 .flex {
   display: flex;
 }
@@ -644,10 +640,6 @@ video {
 
 .w-\[90\%\] {
   width: 90%;
-}
-
-.w-\[90\] {
-  width: 90;
 }
 
 .flex-col {
@@ -787,10 +779,6 @@ video {
   text-align: center;
 }
 
-.text-start {
-  text-align: start;
-}
-
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -832,6 +820,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#1C1C1F\] {
+  --tw-text-opacity: 1;
+  color: rgb(28 28 31 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#1c1c1f\] {
   --tw-text-opacity: 1;
   color: rgb(28 28 31 / var(--tw-text-opacity, 1));
@@ -847,19 +840,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-\[3\] {
-  color: 3;
-}
-
-.text-\[\#\] {
-  color: #;
-}
-
-.text-\[\#1C1C1F\] {
-  --tw-text-opacity: 1;
-  color: rgb(28 28 31 / var(--tw-text-opacity, 1));
-}
-
 .hover\:bg-\[\#000\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -868,10 +848,6 @@ video {
 .hover\:text-\[\#fff\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-\[\]:hover {
-  color: ;
 }
 
 .hover\:text-\[blue\]:hover {
