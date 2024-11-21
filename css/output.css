@@ -642,6 +642,10 @@ video {
   width: 90%;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -734,6 +738,11 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.decoration-slice {
+  -webkit-box-decoration-break: slice;
+          box-decoration-break: slice;
 }
 
 .px-\[20px\] {
@@ -838,6 +847,10 @@ video {
 .text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.decoration-black {
+  text-decoration-color: #000;
 }
 
 .hover\:bg-\[\#000\]:hover {
